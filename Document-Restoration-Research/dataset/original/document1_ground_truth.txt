@@ -1,0 +1,12 @@
+DOCUMENT IMAGE RESTORATION
+A Sample Research Document
+
+Document image restoration improves the readability of scanned pages that have been affected by noise, blur, fading, or uneven illumination. A clean reference image is useful because it allows the quality of a restored image to be measured against the original.
+
+Spatial filters process an image by examining pixels in a local neighbourhood. The mean filter replaces a pixel with the average of nearby values. The Gaussian filter assigns larger weights to pixels near the centre of the window. The median filter replaces the centre pixel with the median value in the neighbourhood.
+
+Frequency domain methods transform an image using the two dimensional Fourier transform. A low pass filter reduces selected high frequency components before the inverse transform reconstructs the image. Ideal, Butterworth, and Gaussian filters use different transition shapes around the cutoff frequency.
+
+A fair comparison applies each method to the same degraded input and records the filter parameters. Image quality can be evaluated using mean squared error, peak signal to noise ratio, and structural similarity. Optical character recognition can provide an additional measure of text readability.
+
+The best restoration method depends on the type of degradation and the details that must be preserved. Strong smoothing may remove noise, but it can also weaken thin character strokes and punctuation. Therefore, visual inspection and quantitative evaluation should be considered together.
