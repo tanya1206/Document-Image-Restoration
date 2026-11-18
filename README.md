@@ -77,3 +77,6 @@ The experiment uses one synthetic document and one severity level for each degra
 
 ## Research Focus
 An Empirical Evaluation of Spatial vs FFT Low-Pass Filters for Document Image Restoration.
+## Research Paper
+
+[Read the Full Research Paper (PDF)](Updated_IEEE_Document_Image_Restoration_Paper.pdf)
